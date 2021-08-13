@@ -1,0 +1,22 @@
+| [Notes App](https://github.com/lana-20/50Projects50Days/tree/main/NotesApp) | [Live Demo](https://lana-20.github.io/notes-app/) |
+|----|----|
+
+In this project, I am building a notes app.
+To be able to actually save these notes to local storage, 
+I am using the local storage API which is built into the browser.
+
+I have nothing on the page, but the "Add note" button. And if I click that, it adds a note.
+Inside the note, I can click and type eg. "Hello World".
+The Edit button will toggle from the text area to just a regular div that shows the text.
+I can add another note, say eg. "Hello Again". Now I have two notes.
+If I reload, they are going to stay because they are saved in local storage.
+If I delete one note and reload, it's going to stay the same, 
+because it's been saved to the local browser and local storage.
+
+Another thing I can do is use markdown, becase I am using a small library called 
+Marked: https://cdnjs.com/libraries?q=marked.
+For an unordered list I use hyphen (-), for a heading a number sign (#), and so on.
+You can look up and study the markdown syntax on your own.
+
+This is a neat application to practice local storage, work with the DOM, remove items, etc.
+It is basically a CRUD (Create Read Update Delete) appication with markdown.
